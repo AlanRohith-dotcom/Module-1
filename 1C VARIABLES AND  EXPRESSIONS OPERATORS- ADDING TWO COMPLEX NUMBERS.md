@@ -1,30 +1,28 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+## Experiment No: 1d – Conditional Statements- a person is eligible to cast his vote .
 
-## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
-
-## ALGORITHM
-1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
+## AIM  
+To Write a Python program to check whether the given character is a a person is eligible to cast his vote .
+## ALGORITHM  
+1. Begin the program.  
+2. Take a character input from the user
+3. Read and store the input
+4. Check the age condition
+5. If a is greater than or equal to 18,dispaly "Display eligibility message"
+6. Else, display "Display non-eligibility message"
+7. Terminate the program.
 
 ## PROGRAM
 ```python
-a=eval(input())
-b=eval(input())
-c=complex(a,b)
-print(c)
-print(c.imag)
+a=int(input())
+if a>=18:
+    print("Eligible")
+else:
+    print("Not Eligible")
 ```
 
 ## OUTPUT
-<img width="740" height="206" alt="image" src="https://github.com/user-attachments/assets/384a5188-9076-4b09-b214-8281f00151b7" />
-
-
+<img width="876" height="262" alt="image" src="https://github.com/user-attachments/assets/fda577e1-31ec-4ac6-93fe-af7b38dc9ec2" />
 
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus the python program for   given Conditional Statements has been implemented and executed successfully.
